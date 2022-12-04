@@ -10,6 +10,11 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  overflow: auto;
+  white-space: nowrap;
+  /* Bring to front of stacking context */
+  position: relative;
 }
 
 .title {
